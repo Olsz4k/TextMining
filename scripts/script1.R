@@ -1,8 +1,10 @@
 #załadowanie bibliotek
 library(tm)
+library(hunspell)
+library(stringr)
 
 #zmiana katalogu roboczego
-workDir <- "D:\\KW\\TextMining11S"
+workDir <- "G:\\Uczelnia\\Uczelnia\\MAGISTER\\Przetwarzanie j�zyka naturalnego\\TextMining"
 setwd(workDir)
 
 #definicja katalogów funkcjonalnych
